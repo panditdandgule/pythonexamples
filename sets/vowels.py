@@ -1,0 +1,5 @@
+word=input("Enter word to search of words: ")
+s=set(word)
+v=list('aeiou')
+d=s.intersection(v)
+print("The different vowel present in",word,"are",d)

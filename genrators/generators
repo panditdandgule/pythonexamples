@@ -1,0 +1,3 @@
+Generator is a function which is responsible to generate sequance of values.
+We can write generator functions just like ordinary functions, but it uses
+yield keyword to return values.
