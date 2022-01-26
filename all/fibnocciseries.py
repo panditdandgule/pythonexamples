@@ -13,6 +13,7 @@ b = 1
 i = 0
 
 while i <= n:
+    #printing values one by one
     print(a)
     a, b = b, a + b
     i += 1
