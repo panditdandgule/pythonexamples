@@ -1,0 +1,29 @@
+Opening File:
+ syntax: f=open(filename,mode)
+
+The allowed mode in python
+
+1)r-Open an existing file in read mode. If file does not exists then we will get FileNotFound error
+2)w-Open an existing file in write mode. If file already contains data then it will overwrite file.
+    If file already not exist then it will create new file.
+3)a-Open an existing file in append mode. If file already contains data then it will not overite the data.
+    If file already not exist then it will create new file
+4)r+ To read and write data into the file. The previous data in the file will not be deleted.
+     The file pointer is placed at the beginning of the file.
+5)w+ To read and write data into the file. The previous data in the file will be overwrite.
+6)a+ To append and read data from the file. It will overwrite existing data.
+7)x To open a file in exclusive creation mode for write operation. If file already exists then we will get
+    FileExistError.
+
+Notes: All the above modes are applicable for text files. If the above modes suffixed with 'b' then these
+        represents for binary files.
+
+ Examples: rb,wb,ab,r+b,w+b,a+b,xb
+
+Closing a File:
+ After completing our operations on the file, it is highly recommonded to close the file.
+ For this we have to use close() function.
+ f.close()
+
+The with statements:
+ The with statement can be used while opening file. We can use this to group file operation statements within a block.
