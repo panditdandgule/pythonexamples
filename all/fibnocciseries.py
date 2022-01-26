@@ -7,7 +7,7 @@ Enter number: 5
 3
 5
 """
-n = int(input("Enter Number: "))
+n = int(input("Enter Number : "))
 a = 0
 b = 1
 i = 0
