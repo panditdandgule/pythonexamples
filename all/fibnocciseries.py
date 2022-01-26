@@ -16,4 +16,4 @@ while i <= n:
     #printing values one by one
     print(a)
     a, b = b, a + b
-    i += 1
+    i += 1 #incrementing i value
