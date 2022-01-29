@@ -1,0 +1,10 @@
+What is Exception?
+An unwanted and unexpected event that disturbs normal flow of program is called exception.
+
+Default Exception Handling in Python?
+ Every exception in python is an object.
+ For every exception type the corresponding classes available.
+
+ Whenever an exception occurs PVM will create the corresponding exception object and will check for handling code.
+ If handling code is not available then python interpreter terminates the program abnormally and prints corresponding
+ exception information to the console.
