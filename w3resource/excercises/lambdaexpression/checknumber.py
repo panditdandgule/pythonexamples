@@ -5,4 +5,4 @@ print(result('one'))
 print(result('132.45'))
 result1 = lambda y: True if y.isdigit() else False
 print(result1('1343'))
-print(result1('onetwo'))
+print(result1('one two'))
