@@ -1,5 +1,12 @@
+a=10 #global
+
 def f1():
-    print("Hello")
+    global a
+    a=777
+    print(a)
+
+def f2():
+    print(a)
 
 f1()
-print(f1())
+f2()
