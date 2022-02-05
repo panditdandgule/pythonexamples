@@ -1,11 +1,11 @@
 class Test:
     a=777
     def __init__(self):
-        self.a=999
+
         Test.a=888
 
     def display(self):
-        self.a=999
+
         Test.a=1000
 
     @classmethod
